@@ -6,9 +6,17 @@ html, body {
   font-family: "Helvetica Neue", sans-serif !important;
 }
 
-body{
+body {
   background: url("../images/fuglsang.jpg") no-repeat 50% 50%;
   background-size: cover;
+}
+
+.logo {
+  line-height: 40px;
+  float: left;
+  margin: 1.2em 0 0 2.2em;
+  font-weight: bolder;
+  color: #fff;
 }
 
 
