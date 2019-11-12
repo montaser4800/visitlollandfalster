@@ -19,5 +19,25 @@ body {
   color: #fff;
 }
 
+.social-media {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+.social-media ul li{
+  list-style: none;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.side-strip {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -4em;
+  transform: rotate(90deg);
+  color: #fff;
+  letter-spacing: 4px;
+}
 
