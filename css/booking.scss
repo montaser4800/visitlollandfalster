@@ -15,11 +15,15 @@ body {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: "Helvetica Neue", sans-serif !important;
+  background-color: transparent !important;
+  color: white;
+  font-weight: bolder;
+
 }
 
 .price {
-  color: grey;
+  color: black;
   font-size: 22px;
 }
 
@@ -27,8 +31,8 @@ body {
   border: none;
   outline: 0;
   padding: 12px;
-  color: white;
-  background-color: #000;
+  color: black;
+  background-color: white;
   text-align: center;
   cursor: pointer;
   width: 100%;
