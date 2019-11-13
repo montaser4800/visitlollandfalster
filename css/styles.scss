@@ -21,7 +21,9 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
+  ul{
+    padding-left: 10px;
+  }
 }
 
 .social-media ul li{
@@ -36,7 +38,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: -4em;
+  right: -13em;
   transform: rotate(90deg);
   color: #fff;
   letter-spacing: 4px;
@@ -46,8 +48,8 @@ body {
 
 .header{
   position: absolute;
-  top: 38%;
-  left: 46%;
+  top: 35%;
+  left: 35%;
   transform: translate(-50% -50%);
 
 }
@@ -76,8 +78,15 @@ body {
   font-weight: 600;
   font-size: 12px;
 }
+.bottomText{
 
+  position: absolute;
+  top: 95%;
+  left: 5%;
+
+}
 .bottom-bar {
+  display: none;
   color: #fff;
   position: absolute;
   bottom: 0px;
@@ -127,7 +136,23 @@ body {
   font-weight: bolder;
   letter-spacing: 12px;
 }
+@media screen and(min-width: 768px) {
 
+  .side-strip{
+   right: -4em;
+ }
+
+  .header{
+    left: 46%;
+  }
+
+  .social-media{
+      ul{
+        padding-left: auto;
+      }
+    }
+
+}
 
 
 
